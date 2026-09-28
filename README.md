@@ -22,7 +22,7 @@ cd court-sense-ai-3d-mesh
 
 We follow a lightweight Conventional Commits style:
 
-<type>(<scope>): <short subject>
+`<type>(<scope>): <short subject>`
 
 Types: feat, fix, refactor, chore, docs, test, perf, style.
 

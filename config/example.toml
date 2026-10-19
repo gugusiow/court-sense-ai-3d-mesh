@@ -1,0 +1,6 @@
+# Local, offline prototype configuration. No secrets or personal data.
+timestamp_tolerance_ns = 2_000_000
+frame_count = 30
+frame_interval_ns = 33_333_333
+joint_count = 3
+validity_threshold = 0.8

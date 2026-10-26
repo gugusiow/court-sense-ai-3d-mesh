@@ -7,3 +7,4 @@ dist/
 *.egg-info/
 data/*
 !data/.gitkeep
+system_architecture.drawio

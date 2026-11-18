@@ -1,0 +1,15 @@
+{
+  "short_name": "CourtSense",
+  "name": "CourtSense",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fff1e4",
+  "background_color": "#fff1e4"
+}

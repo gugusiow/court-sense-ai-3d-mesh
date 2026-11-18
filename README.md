@@ -68,6 +68,28 @@ git clone https://github.com/gugusiow/court-sense-ai-3d-mesh.git
 cd court-sense-ai-3d-mesh
 ```
 
+## Start the app
+
+You need Python and Node.js. The app is two processes, so use two terminals. Install the dependencies the first time only.
+
+Backend:
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+Frontend:
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Open http://localhost:3000. Leave both terminals running. Each person runs this on their own computer.
+
 ## Commit message format
 
 We follow a lightweight Conventional Commits style:

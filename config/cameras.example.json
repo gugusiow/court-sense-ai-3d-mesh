@@ -1,0 +1,35 @@
+{
+  "note": "PLACEHOLDER back/side rig. Replace this file with the output of scripts/calibrate_stereo.py before preprocessing a real clip. World units are meters. Z is up. The back camera looks along +Y and the side camera looks along -X.",
+  "world_units": "meters",
+  "opencv_convention": "x_right_y_down_z_forward_world_to_camera",
+  "cameras": [
+    {
+      "camera_id": "cam_back",
+      "view_name": "back",
+      "width": 1920,
+      "height": 1080,
+      "K": [[1200.0, 0.0, 960.0], [0.0, 1200.0, 540.0], [0.0, 0.0, 1.0]],
+      "R": [
+        [1.0, 0.0, 0.0],
+        [0.0, -0.06651901052377396, -0.997785157856609],
+        [0.0, 0.997785157856609, -0.06651901052377396]
+      ],
+      "t": [0.0, 1.1973421894279308, 6.093141363977693],
+      "distortion": [0.0, 0.0, 0.0, 0.0, 0.0]
+    },
+    {
+      "camera_id": "cam_side",
+      "view_name": "side",
+      "width": 1920,
+      "height": 1080,
+      "K": [[1200.0, 0.0, 960.0], [0.0, 1200.0, 540.0], [0.0, 0.0, 1.0]],
+      "R": [
+        [0.0, 1.0, 0.0],
+        [0.06651901052377396, 0.0, -0.997785157856609],
+        [-0.997785157856609, 0.0, -0.06651901052377396]
+      ],
+      "t": [0.0, 1.1973421894279308, 6.093141363977693],
+      "distortion": [0.0, 0.0, 0.0, 0.0, 0.0]
+    }
+  ]
+}

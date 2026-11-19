@@ -90,6 +90,22 @@ npm start
 
 Open http://localhost:3000. Leave both terminals running. Each person runs this on their own computer.
 
+## Two-view novel-view experiment
+
+The `nvs_test` branch adds a preprocessing path for a mesh-guided novel-view
+trial. Two synchronized cameras (back and side) are turned into the dataset
+layout used by [Neural Body](https://github.com/zju3dv/neuralbody), with SAM
+3D Body meshes in place of SMPL and the basketball kept as its own object.
+
+Setup, calibration, and the Neural Body adapter are in
+[docs/nvs_two_view.md](docs/nvs_two_view.md). The geometry can be checked
+without model weights:
+
+```bash
+python -m pip install -e ".[dev,nvs]"
+python preprocess.py --self-check
+```
+
 ## Commit message format
 
 We follow a lightweight Conventional Commits style:
